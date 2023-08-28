@@ -1,5 +1,12 @@
-import App from "../components/app";
+import Banner from "./banner/banner";
+import Dashboard from "./dashboard/dashboard";
 
-const Index = () => <App />;
+const App = () => {
+  return (
+    <>
+     <Dashboard/>
+    </>
+  );
+};
 
-export default Index;
+export default App;
